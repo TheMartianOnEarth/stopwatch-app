@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Inter&family=Lexend:wght@300&family=Poppins:ital,wght@0,200;0,300;0,600;1,400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+        <p id="title">STOPWATCH</p>
+
+            <div class="frame">
+                <div class="hrs">00</div>
+                <div class="colon">:</div>
+                <div class="min">00</div>
+                <div class="colon">:</div>
+                <div class="sec">00</div>
+                <div class="colon">:</div>
+                <div class="ms">00</div>
+            </div>
+
+            <div class="buttons">
+                <button class="button stop-active" id="stop-button" type="button">STOP</button>
+                <button class="button" id="start-button" type="button">START</button>
+                <button class="button reset-active" id="reset-button" type="button">RESET</button>
+            </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
